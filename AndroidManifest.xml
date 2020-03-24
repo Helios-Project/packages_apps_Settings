@@ -3298,6 +3298,19 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
+        <!-- Helios Center -->
+        <activity android:name=".Settings$HeliosSettingsActivity"
+            android:label="@string/helios_settings_title"
+            android:icon="@drawable/ic_homepage_helios"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.helios.settings.HeliosSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

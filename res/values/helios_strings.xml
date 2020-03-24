@@ -86,4 +86,7 @@
     <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
     <string name="auto_refresh_rate">Auto</string>
 
+    <!-- Helios Center -->
+    <string name="helios_settings_title">Helios Center</string>
+    <string name="helios_settings_summary">Explore additional options</string>
 </resources>
